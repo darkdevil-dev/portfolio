@@ -17,12 +17,19 @@ export const metadata: Metadata = {
   keywords: [
     "Aman Kumar",
     "Full Stack Developer",
-    "Editor",
-    "Freelancer",
+    "Flutter Developer",
+    "MERN Stack Developer",
     "React Developer",
     "Next.js Developer",
-    "Web Designer",
+    "Node.js Developer",
+    "Mobile App Developer",
+    "Freelancer",
+    "Web Developer",
+    "Firebase",
+    "Supabase",
     "Portfolio",
+    "Rampur",
+    "India",
   ],
   authors: [{ name: "Aman Kumar" }],
   creator: "Aman Kumar",
@@ -32,13 +39,13 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://vipamangautam.com",
     title: "Aman Kumar - Full Stack Developer",
-    description: "A self-taught full stack Developer. Creating meaningful and delightful digital products.",
+    description: "A self-taught Full Stack Developer with hands-on experience in MERN Stack, Flutter, Firebase & Supabase. Building scalable web apps and cross-platform mobile apps — from design to deployment.",
     siteName: "Aman Kumar Portfolio",
   },
   twitter: {
     card: "summary_large_image",
     title: "Aman Kumar - Full Stack Developer",
-    description: "A self-taught Full Stack Developer",
+    description: "A self-taught Full Stack Developer with hands-on experience in MERN Stack, Flutter, Firebase & Supabase.",
   },
   robots: {
     index: true,
@@ -69,9 +76,7 @@ export default function RootLayout({
       <head>
         <link rel="canonical" href="https://vipamangautam.com" />
       </head>
-      <body
-        className={`${poppins.variable} font-sans antialiased`}
-      >
+      <body className={`${poppins.variable} font-sans antialiased`}>
         {children}
         <Analytics />
       </body>
