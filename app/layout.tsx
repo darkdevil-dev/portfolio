@@ -12,11 +12,11 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Aman Gautam - Graphic Designer",
-  description: "A self-taught Graphic designer. Creating meaningful and delightful digital products that balance user needs and business goals. 2+ years of industry experience.",
+  title: "Aman Kumar - Full Stack Developer",
+  description: "A self-taught Full Stack Developer with hands-on experience in MERN Stack, Flutter, Firebase & Supabase. I build scalable web apps and cross-platform mobile apps — from design to deployment.",
   keywords: [
-    "Aman Gautam",
-    "Graphic Designer",
+    "Aman Kumar",
+    "Full Stack Developer",
     "Editor",
     "Freelancer",
     "React Developer",
@@ -24,21 +24,21 @@ export const metadata: Metadata = {
     "Web Designer",
     "Portfolio",
   ],
-  authors: [{ name: "Aman Gautam" }],
-  creator: "Aman Gautam",
-  publisher: "Aman Gautam",
+  authors: [{ name: "Aman Kumar" }],
+  creator: "Aman Kumar",
+  publisher: "Aman Kumar",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://vipamangautam.com",
-    title: "Aman Gautam - Graphic Designer",
-    description: "A self-taught graphic designer. Creating meaningful and delightful digital products.",
-    siteName: "Aman gautam Portfolio",
+    title: "Aman Kumar - Full Stack Developer",
+    description: "A self-taught full stack Developer. Creating meaningful and delightful digital products.",
+    siteName: "Aman Kumar Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aman Gautam - Graphic Designer",
-    description: "A self-taught graphuc designer",
+    title: "Aman Kumar - Full Stack Developer",
+    description: "A self-taught Full Stack Developer",
   },
   robots: {
     index: true,
