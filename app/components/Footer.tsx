@@ -14,7 +14,7 @@ export default function Footer(): React.JSX.Element {
             Development & AI-driven projects — or have a project in mind?
             Let&apos;s build something great together.
           </p>
-          
+          <a
             href="mailto:realaman.78@gmail.com"
             className="text-md text-purple-400 hover:text-purple-300 transition-colors"
           >

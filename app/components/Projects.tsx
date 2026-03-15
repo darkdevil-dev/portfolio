@@ -84,7 +84,7 @@ export default function Projects(): React.JSX.Element {
                   {/* Links */}
                   <div className="flex gap-4 items-center">
                     {project.github && (
-                      
+                      <a
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -97,7 +97,7 @@ export default function Projects(): React.JSX.Element {
                       </a>
                     )}
                     {project.link && (
-                      
+                      <a
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"

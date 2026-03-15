@@ -4,13 +4,13 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 
 export default function Banner(): React.JSX.Element {
-  const texts = ["Full Stack Developer", "Flutter Developer", "MERN Stack Dev", "Freelancer"];
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
   const [typingSpeed, setTypingSpeed] = useState(100);
 
   useEffect(() => {
+    const texts = ["Full Stack Developer", "Flutter Developer", "MERN Stack Dev", "Freelancer"];
     const currentText = texts[currentTextIndex];
 
     if (!isDeleting) {
@@ -38,7 +38,7 @@ export default function Banner(): React.JSX.Element {
         setCurrentTextIndex((prev) => (prev + 1) % texts.length);
       }
     }
-  }, [displayedText, isDeleting, currentTextIndex, texts, typingSpeed]);
+  }, [displayedText, isDeleting, currentTextIndex, typingSpeed]);
 
   return (
     <section
